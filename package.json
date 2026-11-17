@@ -1,0 +1,16 @@
+
+{
+  "name": "my-paid-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple x402 paid API on Base",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@x402/core": "^2.31.0",
+    "@x402/express": "^2.31.0",
+    "@x402/evm": "^2.31.0",
+    "express": "^5.1.0"
+  }
+}
