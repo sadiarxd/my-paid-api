@@ -1,4 +1,3 @@
-
 import express from "express";
 import {
   paymentMiddleware,
@@ -17,7 +16,7 @@ const facilitator = new HTTPFacilitatorClient({
 });
 
 const resourceServer = new x402ResourceServer(facilitator)
-  .register("network: "base",", new ExactEvmScheme());
+  .register("eip155:8453", new ExactEvmScheme());
 
 app.get("/", (req, res) => {
   res.json({
