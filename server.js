@@ -13,7 +13,7 @@ app.use(express.json());
 const payTo = "0xBd6f1d5d1C73bB6D7cdA70982bC95Ab0F6b81C58";
 
 const facilitator = new HTTPFacilitatorClient({
-  url: "url: "https://facilitator.xpay.sh""
+  url: "https://x402.primer.systems"
 });
 
 const resourceServer = new x402ResourceServer(facilitator)
